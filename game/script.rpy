@@ -20,11 +20,17 @@ define R = Character("Recet")
 init python:
 
     # This is just an example math function that does a common problem.
-    #def pythagorean (self, a: int, b: int) -> float:
-        # c^2 = a^2 + b^2
-        #c = a^2 + b^2
+    def pythagorean2D (self, a: int, b: int) -> float:
+        #c^2 = a^2 + b^2
+        c = a^2 + b^2
         # return the hypotenuse of a triangle.
-        #return sqrt(c)
+        return sqrt(c)
+
+        #distance in a 3d environment! originally called pythagorean3D
+    def distance (self, x: int, y: int, x: int) -> float:
+        return sqrt(x^2 + y^2 + z^2)
+
+    dist = distance (xb-xa, yb-ya, zb-za)
 
     # This would print 13
     #print pythagorean (5, 12)
